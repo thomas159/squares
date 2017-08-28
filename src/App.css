@@ -1,0 +1,47 @@
+* {
+  box-sizing: border-box;
+}
+
+.box {
+  height: 200px;
+  width: 200px;
+  background: #ff0000;
+}
+
+.smallBox {
+  height: 100px;
+  width: 100px;
+  background: #ff0000;
+  padding: 10px;
+}
+
+.grid {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction:row;
+}
+
+.cell {
+  flex: 0 0 10%;
+  padding: 5px;
+}
+
+.innerCell {
+  height: 60px;
+  width: 0 0 auto;
+  background: #ff0000;
+  color:#fff;
+}
+
+.githubWrap {
+  height: 100%;
+  width: 100%;
+}
+
+.github {
+  display: flex;
+  height:auto;
+  justify-content: center;
+  align-items: center;
+  font-size: 100px
+}
