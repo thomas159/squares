@@ -36,7 +36,6 @@ export default class Loader extends Component {
       {gitHub}
         <div className="grid" ref={con => { this.grid = con; }}>
           {res}
-
         </div>
       </div>
     )
